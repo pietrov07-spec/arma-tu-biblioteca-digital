@@ -119,6 +119,17 @@ docs/          guides in Spanish (es/) and English (en/), images (img/)
 This project does not host or distribute books: everyone uses their own Drive.
 Read the [privacy and responsible-use note](PRIVACIDAD.md).
 
+## 🤝 Contributing
+
+Bug reports, guide improvements and new interface languages are very welcome.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) and look for issues labeled
+[`good first issue`](../../issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+
+## 📚 Cite this project
+
+If you use it in academic work, use the **Cite this repository** button on GitHub
+(it reads [CITATION.cff](CITATION.cff)).
+
 ## 🙏 Credits
 
 [pdf.js](https://mozilla.github.io/pdf.js/) (Apache 2.0), [foliate-js](https://github.com/johnfactotum/foliate-js) (MIT),

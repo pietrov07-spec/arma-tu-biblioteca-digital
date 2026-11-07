@@ -1,0 +1,20 @@
+name: "💡 Idea · Feature request"
+description: "Propón una función o mejora · Suggest a feature or improvement"
+labels: ["idea"]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: "¿Qué problema resolvería? · What problem would it solve?"
+    validations:
+      required: true
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: "¿Cómo te lo imaginas? · How do you picture it?"
+  - type: checkboxes
+    id: ayuda
+    attributes:
+      label: "¿Te gustaría ayudar? · Would you like to help?"
+      options:
+        - label: "Puedo intentar un pull request · I can try a pull request"

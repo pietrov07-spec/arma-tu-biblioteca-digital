@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Si usas este software en un trabajo académico, cítalo así. · If you use this software in academic work, please cite it as below."
+title: "Arma tu biblioteca digital / Build your digital library"
+abstract: "Biblioteca digital privada sobre Google Drive: catálogo automático con Apps Script, lector de PDF y EPUB con notas, citas y mapa de autores, con interfaz en español e inglés. A private digital library on top of Google Drive: automatic catalog with Apps Script, PDF and EPUB reader with notes, citations and an authors map, with a Spanish and English interface."
+type: software
+authors:
+  - family-names: "Vazquez"
+    given-names: "Francisco"
+repository-code: "https://github.com/pietrov07-spec/arma-tu-biblioteca-digital"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-06"
+keywords:
+  - digital library
+  - biblioteca digital
+  - digital humanities
+  - humanidades digitales
+  - google drive
+  - apps script
+  - ebook reader
+  - epub
+  - pdf

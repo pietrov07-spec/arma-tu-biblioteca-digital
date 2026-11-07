@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "💬 Preguntas · Questions"
+    url: https://github.com/pietrov07-spec/arma-tu-biblioteca-digital/discussions
+    about: "Dudas de instalación o uso · Setup or usage questions"
+  - name: "📖 Guía paso a paso · Step-by-step guide"
+    url: https://github.com/pietrov07-spec/arma-tu-biblioteca-digital/blob/main/docs/es/guia.md
+    about: "Español · English: docs/en/guide.md"

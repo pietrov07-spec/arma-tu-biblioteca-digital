@@ -1,0 +1,40 @@
+name: "🐞 Error · Bug"
+description: "Algo no funciona como dice la guía · Something doesn't work as the guide says"
+labels: ["error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **No pegues IDs de Drive, correos, tu `web/.env` ni contenido de libros.** · **Do not paste Drive IDs, emails, your `web/.env` or book content.**
+  - type: dropdown
+    id: parte
+    attributes:
+      label: "¿Dónde ocurre? · Where does it happen?"
+      options:
+        - "Web (catálogo, lector, notas…) · Web app (catalog, reader, notes…)"
+        - "Apps Script (hoja de cálculo) · Apps Script (spreadsheet)"
+        - "Instalación o publicación (Google Cloud, Vercel) · Setup or deploy (Google Cloud, Vercel)"
+        - "Guía o documentación · Guide or docs"
+    validations:
+      required: true
+  - type: textarea
+    id: que
+    attributes:
+      label: "¿Qué pasó y qué esperabas? · What happened and what did you expect?"
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: "Pasos para reproducirlo · Steps to reproduce"
+      placeholder: "1. …\n2. …\n3. …"
+  - type: input
+    id: entorno
+    attributes:
+      label: "Navegador y sistema · Browser and OS"
+      placeholder: "Chrome 140, macOS 26 / Safari, iOS 26…"
+  - type: textarea
+    id: mensajes
+    attributes:
+      label: "Mensajes de error (consola del navegador o registro de Apps Script) · Error messages (browser console or Apps Script log)"
+      render: text

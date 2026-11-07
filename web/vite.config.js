@@ -1,4 +1,4 @@
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { defineConfig, loadEnv } from 'vite';
@@ -29,6 +29,24 @@ const datosLocales = (env) => ({
       if (!existsSync(archivo)) { res.statusCode = 404; return res.end(); }
       res.end(readFileSync(archivo));
     });
+  },
+});
+
+// Demo publicada: si se construye sin ID de cliente (modo demostración), el
+// catálogo y los archivos de ejemplo de web/demo/ (dominio público) se copian
+// a dist/ para que la demo funcione en Vercel. Nunca copia web/local/: tu
+// catálogo propio no sale de tu computadora. Con ID de cliente no copia nada.
+const demoPublicada = (env) => ({
+  name: 'demo-publicada',
+  apply: 'build',
+  generateBundle() {
+    if ((env.VITE_GOOGLE_CLIENT_ID || '').trim()) return;
+    const catalogo = ruta('demo/catalogo-demo.json');
+    if (!existsSync(catalogo)) return;
+    this.emitFile({ type: 'asset', fileName: 'catalogo.json', source: readFileSync(catalogo) });
+    for (const nombre of readdirSync(ruta('demo/archivos'))) {
+      this.emitFile({ type: 'asset', fileName: `demo/archivos/${nombre}`, source: readFileSync(ruta(`demo/archivos/${nombre}`)) });
+    }
   },
 });
 
@@ -69,7 +87,7 @@ const titulo = (env) => ({
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, ruta('.'));
   return {
-    plugins: [react(), datosLocales(env), politica, titulo(env)],
+    plugins: [react(), datosLocales(env), demoPublicada(env), politica, titulo(env)],
     server: { port: 5173, strictPort: true },
   };
 });
