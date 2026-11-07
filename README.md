@@ -10,6 +10,7 @@
 </p>
 
 <p align="center">
+  <a href="https://doi.org/10.5281/zenodo.24026123"><img alt="DOI" src="https://zenodo.org/badge/DOI/10.5281/zenodo.24026123.svg"></a>
   <img alt="React" src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white">
   <img alt="Vite" src="https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white">
   <img alt="Google Drive" src="https://img.shields.io/badge/Google-Drive-4285F4?logo=googledrive&logoColor=white">
@@ -134,7 +135,9 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) and look for issues labeled
 ## 📚 Cite this project
 
 If you use it in academic work, use the **Cite this repository** button on GitHub
-(it reads [CITATION.cff](CITATION.cff)).
+(it reads [CITATION.cff](CITATION.cff)) or cite the DOI, which always points to the latest version:
+
+> Vazquez, F. (2026). *Arma tu biblioteca digital / Build your digital library* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24026123
 
 ## 🙏 Credits
 

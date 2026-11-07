@@ -6,6 +6,15 @@ type: software
 authors:
   - family-names: "Vazquez"
     given-names: "Francisco"
+doi: "10.5281/zenodo.24026123"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24026123"
+    description: "Todas las versiones (siempre la más reciente) · All versions (always the latest)"
+  - type: doi
+    value: "10.5281/zenodo.24026124"
+    description: "Versión 1.0.0 · Version 1.0.0"
+url: "https://arma-tu-biblioteca-digital.vercel.app"
 repository-code: "https://github.com/pietrov07-spec/arma-tu-biblioteca-digital"
 license: MIT
 version: "1.0.0"
