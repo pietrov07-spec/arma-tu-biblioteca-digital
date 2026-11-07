@@ -1,0 +1,50 @@
+/* Vista Mapa: se descarga solo al abrirla, junto con el dibujo del mundo */
+.mapa { display: flex; flex-direction: column; gap: var(--space-md); margin-bottom: var(--space-lg); }
+.mapa-encuadres { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.mapa-svg {
+  display: block; width: 100%; max-height: 62vh;
+  border: 1px solid var(--borde); border-radius: 12px;
+  background: var(--tarjeta);
+}
+.mapa-tierra { fill: var(--borde); }
+
+.mapa-punto { cursor: pointer; outline: none; }
+.mapa-punto-toque { fill: transparent; }
+.mapa-punto-disco { fill: var(--activo); stroke: var(--tarjeta); transition: fill var(--rapido); }
+.mapa-punto text {
+  fill: var(--fondo); font-family: var(--serif); font-weight: 600;
+  text-anchor: middle; pointer-events: none;
+}
+.mapa-punto.por-confirmar .mapa-punto-disco { fill: var(--tarjeta); stroke: var(--activo); }
+.mapa-punto.por-confirmar text { fill: var(--activo); }
+.mapa-punto.elegido .mapa-punto-disco { fill: var(--acento); stroke: var(--texto); }
+.mapa-punto:hover .mapa-punto-disco, .mapa-punto:focus-visible .mapa-punto-disco { stroke: var(--texto); }
+
+.mapa-nota { display: flex; align-items: baseline; gap: var(--space-sm); margin: 0; color: var(--texto-suave); font-size: 0.85rem; }
+.mapa-nota-punto {
+  flex: none; width: 10px; height: 10px; border-radius: 50%;
+  border: 1.5px solid var(--activo); transform: translateY(1px);
+}
+.mapa-elegido { margin: 0; font-size: 1.05rem; }
+
+.mapa-paises {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 0 var(--space-lg);
+  margin: 0; padding: 0; list-style: none;
+}
+.mapa-paises button {
+  display: flex; align-items: baseline; gap: var(--space-sm);
+  width: 100%; min-height: 44px; padding: 10px 0;
+  border: 0; border-bottom: 1px solid var(--borde); background: none;
+  color: var(--texto); text-align: left;
+  transition: color var(--rapido);
+}
+.mapa-paises button:hover { color: var(--activo); }
+.mapa-pais-nombre { min-width: 0; }
+.mapa-pais-duda { color: var(--texto-suave); font-size: 0.8rem; }
+.mapa-pais-n { margin-left: auto; font-variant-numeric: tabular-nums; font-weight: 600; }
+.mapa-sin-pais { color: var(--texto-suave) !important; }
+
+@media (max-width: 640px) {
+  .mapa-paises { grid-template-columns: minmax(0, 1fr); }
+}

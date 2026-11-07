@@ -1,0 +1,13 @@
+node_modules/
+web/dist/
+web/local/
+web/.env.local
+.DS_Store
+data/
+*.log
+
+# Tu configuración (web/.env) SÍ se puede versionar en tu copia privada; ver
+# docs/es/guia.md, paso 8. Si prefieres no hacerlo, descomenta la línea:
+# Your configuration (web/.env) CAN be committed in your private copy; see
+# docs/en/guide.md, step 8. If you'd rather not, uncomment the line:
+# web/.env

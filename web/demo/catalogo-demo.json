@@ -1,0 +1,605 @@
+[
+ {
+  "id": "quijote",
+  "t": "El ingenioso hidalgo don Quijote de la Mancha",
+  "a": [
+   "Miguel de Cervantes"
+  ],
+  "y": 1605,
+  "c": [
+   "Novela",
+   "Novela/Clásicos"
+  ],
+  "pa": "ES",
+  "tm": [
+   "Caballería",
+   "Sátira"
+  ],
+  "l": [
+   "spa"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-quijote",
+    "x": "pdf",
+    "s": 3800,
+    "r": "Novela/Clásicos"
+   }
+  ]
+ },
+ {
+  "id": "austen",
+  "t": "Pride and Prejudice",
+  "a": [
+   "Jane Austen"
+  ],
+  "y": 1813,
+  "c": [
+   "Novela",
+   "Novela/Clásicos"
+  ],
+  "pa": "GB",
+  "tm": [
+   "Courtship",
+   "Social classes"
+  ],
+  "l": [
+   "eng"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-austen",
+    "x": "epub",
+    "s": 2679,
+    "r": "Novela/Clásicos"
+   }
+  ]
+ },
+ {
+  "id": "frankenstein",
+  "t": "Frankenstein; or, The Modern Prometheus",
+  "a": [
+   "Mary Shelley"
+  ],
+  "y": 1818,
+  "c": [
+   "Novela"
+  ],
+  "pa": "GB",
+  "tm": [
+   "Science fiction",
+   "Gothic fiction"
+  ],
+  "l": [
+   "eng"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-frankenstein",
+    "x": "epub",
+    "s": 480000,
+    "r": "Novela"
+   }
+  ]
+ },
+ {
+  "id": "moby",
+  "t": "Moby-Dick; or, The Whale",
+  "a": [
+   "Herman Melville"
+  ],
+  "y": 1851,
+  "c": [
+   "Novela"
+  ],
+  "pa": "US",
+  "tm": [
+   "Whaling",
+   "Sea stories"
+  ],
+  "l": [
+   "eng"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-moby",
+    "x": "epub",
+    "s": 820000,
+    "r": "Novela"
+   }
+  ]
+ },
+ {
+  "id": "karenina",
+  "t": "Ana Karenina",
+  "a": [
+   "León Tolstói"
+  ],
+  "y": 1878,
+  "c": [
+   "Novela"
+  ],
+  "pa": "RU",
+  "tm": [
+   "Familia",
+   "Sociedad rusa"
+  ],
+  "l": [
+   "spa"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-karenina",
+    "x": "pdf",
+    "s": 3400000,
+    "r": "Novela"
+   }
+  ]
+ },
+ {
+  "id": "regenta",
+  "t": "La Regenta",
+  "a": [
+   "Leopoldo Alas «Clarín»"
+  ],
+  "y": 1884,
+  "c": [
+   "Novela",
+   "Novela/Clásicos"
+  ],
+  "pa": "ES",
+  "tm": [
+   "Realismo"
+  ],
+  "l": [
+   "spa"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-regenta",
+    "x": "pdf",
+    "s": 2900000,
+    "r": "Novela/Clásicos"
+   }
+  ]
+ },
+ {
+  "id": "maria",
+  "t": "María",
+  "a": [
+   "Jorge Isaacs"
+  ],
+  "y": 1867,
+  "c": [
+   "Novela"
+  ],
+  "pa": "CO",
+  "tm": [
+   "Romanticismo"
+  ],
+  "l": [
+   "spa"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-maria",
+    "x": "epub",
+    "s": 350000,
+    "r": "Novela"
+   }
+  ]
+ },
+ {
+  "id": "azul",
+  "t": "Azul…",
+  "a": [
+   "Rubén Darío"
+  ],
+  "y": 1888,
+  "c": [
+   "Poesía"
+  ],
+  "pa": "NI",
+  "tm": [
+   "Modernismo"
+  ],
+  "l": [
+   "spa"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-azul",
+    "x": "pdf",
+    "s": 900000,
+    "r": "Poesía"
+   }
+  ]
+ },
+ {
+  "id": "hojas",
+  "t": "Leaves of Grass",
+  "a": [
+   "Walt Whitman"
+  ],
+  "y": 1855,
+  "c": [
+   "Poesía"
+  ],
+  "pa": "US",
+  "tm": [
+   "American poetry"
+  ],
+  "l": [
+   "eng"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-hojas",
+    "x": "epub",
+    "s": 610000,
+    "r": "Poesía"
+   }
+  ]
+ },
+ {
+  "id": "rimas",
+  "t": "Rimas",
+  "a": [
+   "Gustavo Adolfo Bécquer"
+  ],
+  "y": 1871,
+  "c": [
+   "Poesía"
+  ],
+  "pa": "ES",
+  "tm": [
+   "Romanticismo"
+  ],
+  "l": [
+   "spa"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-rimas",
+    "x": "pdf",
+    "s": 700000,
+    "r": "Poesía"
+   }
+  ]
+ },
+ {
+  "id": "sorjuana",
+  "t": "Inundación castálida",
+  "a": [
+   "Sor Juana Inés de la Cruz"
+  ],
+  "y": 1689,
+  "c": [
+   "Poesía"
+  ],
+  "pa": "MX",
+  "tm": [
+   "Barroco"
+  ],
+  "l": [
+   "spa"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-sorjuana",
+    "x": "pdf",
+    "s": 5100000,
+    "r": "Poesía"
+   }
+  ]
+ },
+ {
+  "id": "hamlet",
+  "t": "Hamlet",
+  "a": [
+   "William Shakespeare"
+  ],
+  "y": 1603,
+  "c": [
+   "Teatro"
+  ],
+  "pa": "GB",
+  "tm": [
+   "Tragedy"
+  ],
+  "l": [
+   "eng"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-hamlet",
+    "x": "epub",
+    "s": 290000,
+    "r": "Teatro"
+   }
+  ]
+ },
+ {
+  "id": "vida",
+  "t": "La vida es sueño",
+  "a": [
+   "Pedro Calderón de la Barca"
+  ],
+  "y": 1635,
+  "c": [
+   "Teatro"
+  ],
+  "pa": "ES",
+  "tm": [
+   "Barroco",
+   "Libre albedrío"
+  ],
+  "l": [
+   "spa"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-vida",
+    "x": "pdf",
+    "s": 1100000,
+    "r": "Teatro"
+   }
+  ]
+ },
+ {
+  "id": "casa",
+  "t": "Casa de muñecas",
+  "a": [
+   "Henrik Ibsen"
+  ],
+  "y": 1879,
+  "c": [
+   "Teatro"
+  ],
+  "pa": "NO",
+  "tm": [
+   "Drama"
+  ],
+  "l": [
+   "spa"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-casa",
+    "x": "pdf",
+    "s": 800000,
+    "r": "Teatro"
+   }
+  ]
+ },
+ {
+  "id": "meditaciones",
+  "t": "Meditaciones",
+  "a": [
+   "Marco Aurelio"
+  ],
+  "y": 180,
+  "c": [
+   "Filosofía"
+  ],
+  "pa": "IT",
+  "tm": [
+   "Estoicismo"
+  ],
+  "l": [
+   "spa"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-meditaciones",
+    "x": "epub",
+    "s": 400000,
+    "r": "Filosofía"
+   }
+  ]
+ },
+ {
+  "id": "metodo",
+  "t": "Discurso del método",
+  "a": [
+   "René Descartes"
+  ],
+  "y": 1637,
+  "c": [
+   "Filosofía"
+  ],
+  "pa": "FR",
+  "tm": [
+   "Racionalismo"
+  ],
+  "l": [
+   "spa"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-metodo",
+    "x": "pdf",
+    "s": 650000,
+    "r": "Filosofía"
+   }
+  ]
+ },
+ {
+  "id": "zaratustra",
+  "t": "Así habló Zaratustra",
+  "a": [
+   "Friedrich Nietzsche"
+  ],
+  "y": 1883,
+  "c": [
+   "Filosofía"
+  ],
+  "pa": "DE",
+  "tm": [
+   "Filosofía alemana"
+  ],
+  "l": [
+   "spa"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-zaratustra",
+    "x": "epub",
+    "s": 520000,
+    "r": "Filosofía"
+   }
+  ]
+ },
+ {
+  "id": "vindicacion",
+  "t": "A Vindication of the Rights of Woman",
+  "a": [
+   "Mary Wollstonecraft"
+  ],
+  "y": 1792,
+  "c": [
+   "Filosofía"
+  ],
+  "pa": "GB",
+  "tm": [
+   "Feminism",
+   "Education"
+  ],
+  "l": [
+   "eng"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-vindicacion",
+    "x": "epub",
+    "s": 450000,
+    "r": "Filosofía"
+   }
+  ]
+ },
+ {
+  "id": "origen",
+  "t": "On the Origin of Species",
+  "a": [
+   "Charles Darwin"
+  ],
+  "y": 1859,
+  "c": [
+   "Ciencia"
+  ],
+  "pa": "GB",
+  "tm": [
+   "Evolution",
+   "Natural selection"
+  ],
+  "l": [
+   "eng"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-origen",
+    "x": "pdf",
+    "s": 6300000,
+    "r": "Ciencia"
+   }
+  ]
+ },
+ {
+  "id": "dialogo",
+  "t": "Diálogo sobre los dos máximos sistemas del mundo",
+  "a": [
+   "Galileo Galilei"
+  ],
+  "y": 1632,
+  "c": [
+   "Ciencia"
+  ],
+  "pa": "IT",
+  "tm": [
+   "Astronomía"
+  ],
+  "l": [
+   "spa"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-dialogo",
+    "x": "pdf",
+    "s": 9800000,
+    "r": "Ciencia"
+   }
+  ]
+ },
+ {
+  "id": "elementos",
+  "t": "Elementos",
+  "a": [
+   "Euclides"
+  ],
+  "c": [
+   "Ciencia"
+  ],
+  "tm": [
+   "Geometría"
+  ],
+  "l": [
+   "spa"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-elementos",
+    "x": "pdf",
+    "s": 12000000,
+    "r": "Ciencia"
+   }
+  ]
+ },
+ {
+  "id": "cuentos",
+  "t": "Cuentos de amor de locura y de muerte",
+  "a": [
+   "Horacio Quiroga"
+  ],
+  "y": 1917,
+  "c": [
+   "Novela"
+  ],
+  "pa": "UY",
+  "tm": [
+   "Cuento"
+  ],
+  "l": [
+   "spa"
+  ],
+  "m": "alta",
+  "f": [
+   {
+    "id": "demo-sin-archivo-cuentos",
+    "x": "epub",
+    "s": 380000,
+    "r": "Novela"
+   }
+  ]
+ }
+]
