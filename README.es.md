@@ -20,6 +20,10 @@
 </p>
 
 <p align="center">
+  <a href="https://arma-tu-biblioteca-digital.vercel.app"><img alt="Prueba la demo en vivo" src="https://img.shields.io/badge/%E2%96%B6%20Prueba%20la%20demo%20en%20vivo-0d5f50?style=for-the-badge"></a>
+</p>
+
+<p align="center">
   <a href="README.md">🇬🇧 Read in English</a> ·
   <a href="#-pruébalo-en-un-minuto">Pruébalo</a> ·
   <a href="#-funciones">Funciones</a> ·
@@ -83,7 +87,9 @@ y la web se publica gratis en Vercel.
 
 ## 🚀 Pruébalo en un minuto
 
-No necesitas cuenta de Google: la app arranca en modo demostración con obras de dominio público. Necesitas [Node.js 20+](https://nodejs.org).
+**Lo más rápido:** abre la **[demo en vivo](https://arma-tu-biblioteca-digital.vercel.app)**, sin instalar nada. Cambia a español con el botón ES.
+
+Para correrla en tu computadora (no necesitas cuenta de Google: arranca en modo demostración con obras de dominio público), necesitas [Node.js 20+](https://nodejs.org).
 
 ```bash
 git clone https://github.com/USUARIO/arma-tu-biblioteca-digital.git

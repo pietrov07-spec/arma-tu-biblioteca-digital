@@ -94,7 +94,8 @@ Navegador de quien lee
 ## 2. Prueba la demostración en tu computadora
 
 Antes de tocar tu Drive, comprueba que todo funciona con el catálogo de
-ejemplo (obras de dominio público, sin Google).
+ejemplo (obras de dominio público, sin Google). Si solo quieres verla, abre la
+[demo en vivo](https://arma-tu-biblioteca-digital.vercel.app).
 
 1. **Haz tu copia del repositorio.** En GitHub, abre este repositorio y pulsa
    **Use this template → Create a new repository** (o **Fork**). Ponle el nombre

@@ -97,7 +97,8 @@ The reader's browser
 ## 2. Try the demo on your computer
 
 Before touching your Drive, check that everything works with the sample catalog
-(public-domain works, no Google involved).
+(public-domain works, no Google involved). If you only want to look at it, open
+the [live demo](https://arma-tu-biblioteca-digital.vercel.app).
 
 1. **Make your copy of the repository.** On GitHub, open this repository and
    click **Use this template → Create a new repository** (or **Fork**). Name it

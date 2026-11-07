@@ -20,6 +20,10 @@
 </p>
 
 <p align="center">
+  <a href="https://arma-tu-biblioteca-digital.vercel.app"><img alt="Try the live demo" src="https://img.shields.io/badge/%E2%96%B6%20Try%20the%20live%20demo-0d5f50?style=for-the-badge"></a>
+</p>
+
+<p align="center">
   <a href="README.es.md">🇪🇸 Leer en español</a> ·
   <a href="#-try-it-in-a-minute">Try it</a> ·
   <a href="#-features">Features</a> ·
@@ -83,7 +87,9 @@ and the web app is deployed for free on Vercel.
 
 ## 🚀 Try it in a minute
 
-No Google account needed: the app starts in demo mode with public-domain works. You need [Node.js 20+](https://nodejs.org).
+**Fastest:** open the **[live demo](https://arma-tu-biblioteca-digital.vercel.app)** — nothing to install. The interface switches to Spanish with the ES button.
+
+To run it on your computer (no Google account needed: it starts in demo mode with public-domain works), you need [Node.js 20+](https://nodejs.org).
 
 ```bash
 git clone https://github.com/USER/arma-tu-biblioteca-digital.git
